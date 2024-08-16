@@ -1,0 +1,72 @@
+body {
+  overflow-x: hidden;
+}
+@media screen and (max-width: 430px) {
+  body {
+    max-width: 200px;
+  }
+}
+
+.search {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 20px;
+  font-size: 20px;
+}
+@media screen and (max-width: 430px) {
+  .search {
+    margin: 10px;
+    width: 200px;
+  }
+}
+
+.result {
+  margin: auto;
+  margin-top: 50px;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width: 430px) {
+  .result {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+
+.block {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  font-size: 20px;
+  border: 1px solid rgb(0, 0, 0);
+}
+@media screen and (max-width: 430px) {
+  .block {
+    height: 250px;
+    width: 250px;
+  }
+}
+.block--title {
+  margin: 0;
+  font-size: 20px;
+  background-color: grey;
+  height: 50px;
+}
+@media screen and (max-width: 430px) {
+  .block--title {
+    width: 250px;
+  }
+}
+.block--description {
+  margin: 0;
+  font-size: 20px;
+}
+.block--cost {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
