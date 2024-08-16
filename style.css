@@ -16,8 +16,8 @@ body {
 }
 @media screen and (max-width: 430px) {
   .search {
-    margin: 10px;
-    width: 200px;
+    margin: auto;
+    width: 400px;
   }
 }
 
@@ -32,8 +32,9 @@ body {
 }
 @media screen and (max-width: 430px) {
   .result {
+    margin-left: 2px;
+    margin-top: 50px;
     grid-template-columns: 1fr;
-    width: 100%;
   }
 }
 
@@ -47,7 +48,7 @@ body {
 @media screen and (max-width: 430px) {
   .block {
     height: 250px;
-    width: 250px;
+    width: 400px;
   }
 }
 .block--title {
@@ -55,11 +56,6 @@ body {
   font-size: 20px;
   background-color: grey;
   height: 50px;
-}
-@media screen and (max-width: 430px) {
-  .block--title {
-    width: 250px;
-  }
 }
 .block--description {
   margin: 0;
