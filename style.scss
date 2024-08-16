@@ -3,9 +3,6 @@ $--screen-size-tablet-min:431px;
 $--screen-size-tablet-max:1180px;
 
 body{
-    @media screen and (max-width:$--screen-size-iph) {
-     max-width: 200px;
-    }
 overflow-x: hidden;
 }
 .search{
@@ -17,6 +14,10 @@ overflow-x: hidden;
     @media screen and (max-width:$--screen-size-iph) {
         margin: auto;
         width: 400px;
+    }
+    @media screen and (min-width:$--screen-size-tablet-min) and (max-width:$--screen-size-tablet-max){
+        margin: auto;
+        width: 500px;
     }
 }
 .result{
@@ -31,7 +32,11 @@ overflow-x: hidden;
          margin-left:2px;
          margin-top: 50px;
         grid-template-columns: 1fr;
-
+    }
+    @media screen and (min-width:$--screen-size-tablet-min) and (max-width:$--screen-size-tablet-max){
+        margin-left:2px;
+        margin-top: 50px;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 .block{
@@ -44,14 +49,15 @@ overflow-x: hidden;
         height: 250px;
         width: 400px;
     }
+    @media screen and (min-width:$--screen-size-tablet-min) and (max-width:$--screen-size-tablet-max){
+        height: 250px;
+        width: 370px;
+    }
     &--title{
         margin: 0;
         font-size: 20px;
         background-color: grey;
         height: 50px;
-        @media screen and (max-width:$--screen-size-iph) {
-      
-        }
     }
     &--description{
         margin: 0;
