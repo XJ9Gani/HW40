@@ -79,4 +79,31 @@ body {
   margin: 0;
   margin-top: 10px;
   font-size: 20px;
+}
+
+.fuelScale {
+  height: 10px;
+  width: 500px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+.fuelScale__fill {
+  width: 500px;
+  height: 10px;
+  transition: 0.1s;
+  background-color: orange;
+}
+
+.container {
+  margin: auto;
+  border: 1px solid black;
+  width: 1500px;
+  height: 100px;
+}
+
+.car {
+  background-color: red;
+  height: 100%;
+  width: 9%;
+  transition: 0.1s;
 }/*# sourceMappingURL=style.css.map */
