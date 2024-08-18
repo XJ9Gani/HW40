@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <a href="index.html">Back</a>
+
     <div class="fuelScale">
         <div class="fuelScale__fill"></div> 
     </div> 
     <section class="container"> 
-        <div class="car"> </div>
+        <div class="car"> 
+            <div class="car__top"> </div>
+            <div class="car__bottom"> </div>
+            <div class="car__wheels">
+                <div class="car__wheels--left"></div>
+                <div class="car__wheels--right"></div>
+            </div>
+        </div>
     </section>
+    <button class="toggle">Run Car</button>
     <button class="start">Start</button>
     <button class="stop">Stop</button>
     <button class="fill">Fill Fuel</button>
-    <script src="car.js"></script>
+    <script src="script/car.js"></script>
 </body>
 </html>
